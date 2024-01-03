@@ -1,5 +1,5 @@
 :root {
-  --first-color: #5585b5;
+  --first-color: #544e88;
   --second-color: #53a8b6;
   --third-color: #79c2d0;
   --fourth-color: #bbe4e9;
@@ -42,13 +42,16 @@
   list-style: none;
 }
 
-.Weather img {
+.Weather canvas {
   margin-right: 8px;
+  height: 64px;
+  width: 64px;
+  color: var(--first-color);
 }
 
 .Weather .temperature {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 400;
 }
 
